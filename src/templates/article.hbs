@@ -1,0 +1,21 @@
+<article>
+  <div class="container">
+    <div class="info-container">
+      <h2>{{name}}</h2>
+      <p>Capital: <span>{{capital}}</span></p>
+      <p>Population: <span>{{population}}</span></p>
+      <ul>Languages:
+        {{#each languages}}
+        <li><span>{{this.name}}</span></li>
+        {{/each}}
+      </ul>
+    </div>
+    <div>
+      <img src="{{flag}}" alt="flag" width="480">
+    </div>
+  </div>
+</article>
+
+    
+   
+  

@@ -1,0 +1,98 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+    Cantarell, sans-serif;
+  line-height: 1.5;
+  color: #2a2a2a;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  margin-left: 50px;
+  font-size: 40px;
+  color: #575451;
+  margin-bottom: 20px;
+}
+.wrapper {
+  padding: 30px;
+  background-image: url(./bg-fon.jpg);
+  background-size: cover;
+  border-radius: 30px;
+}
+
+.form-control {
+  width: 700px;
+  height: 70px;
+  padding: 0.75rem 50px;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 2px solid #5f656b;
+  border-radius: 0.5rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+::-webkit-input-placeholder {
+  font-size: 20px;
+}
+::-moz-placeholder {
+  font-size: 20px;
+}
+:-moz-placeholder {
+  font-size: 20px;
+}
+:-ms-input-placeholder {
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+}
+
+h2 {
+  font-size: 50px;
+  font-style: italic;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+p,
+ul {
+  font-size: 30px;
+  font-weight: 500;
+  font-style: normal;
+
+  margin: 10px;
+  padding: 0;
+}
+li {
+  margin-left: 30px;
+}
+span {
+  font-style: italic;
+  margin-left: 20px;
+  color: brown;
+}
+
+.notification {
+  height: 60px;
+  border: 5px solid rgb(204, 58, 58);
+  border-radius: 40px;
+}
